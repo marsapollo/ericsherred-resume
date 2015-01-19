@@ -1,0 +1,75 @@
+@media screen {
+  body {
+    margin-bottom: 70px;
+  }
+  body nav .navbar-brand {
+    font-weight: normal;
+  }
+  body nav ul li .btn {
+    text-align: left;
+  }
+  body nav ul li .btn .fa {
+    font-size: 1.25em;
+  }
+  body .jumbotron {
+    text-align: center;
+    border-bottom: 0;
+  }
+  body .jumbotron h1 {
+    font-weight: normal;
+    margin-top: 0px;
+  }
+  body .jumbotron img {
+    margin: auto;
+    max-width: 250px;
+  }
+  body .jumbotron .fa-2 {
+    font-size: 1.25em;
+  }
+  body .container section {
+    border-bottom: 2px solid #777;
+    padding-bottom: 15px;
+  }
+  body .container section:after {
+    clear: both;
+    height: 0px;
+    display: block;
+    visibility: hidden;
+    content: '.';
+  }
+  body .container section.summery {
+    font-size: 1.5rem;
+  }
+  body .container section.skills {
+    padding-bottom: 0px;
+  }
+  body .container section.skills .col-sm-6 div {
+    margin-bottom: 15px;
+  }
+  body .container section.experience .employment {
+    font-weight: bold;
+  }
+  body .container section.experience .title {
+    font-weight: bold;
+    font-style: italic;
+  }
+  body .container section.education .school {
+    font-weight: bold;
+  }
+  body .container section.education .degree {
+    font-weight: bold;
+    font-style: italic;
+  }
+  body .container section.activities article {
+    margin-bottom: 15px;
+  }
+  body .container section.activities article:last-child {
+    margin-bottom: 0px;
+  }
+  body .container section.activities article .title {
+    font-weight: bold;
+  }
+  body .container section.activities article .desc {
+    font-style: italic;
+  }
+}
